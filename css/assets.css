@@ -13,6 +13,10 @@ h1, h2 {
     width: 75%;
 }
 
+.skills {
+    width: 50%;
+}
+
 .education h1, .skills h1, .projects h1, .job h1 {
     text-align: center;
 }
