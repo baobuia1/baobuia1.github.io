@@ -9,7 +9,7 @@ h1, h2 {
     margin: auto;
 }
 
-.education {
+.education, .projects {
     width: 75%;
 }
 
@@ -87,7 +87,7 @@ a.link:hover {
 
 .my-projects article, .other-projects article {
     margin: 20px;
-    width: 30%;
+    width: 45%;
 }
 
 .platforms {
