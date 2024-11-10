@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 .text-mark2 {
-    background: linear-gradient(to right, #6d64a2, #274b7e);
+    background: linear-gradient(to right, #6d64a2, #1b4681);
     background-clip: text;
     color: transparent;
 }
