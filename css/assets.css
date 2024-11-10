@@ -1,0 +1,91 @@
+h1, h2 {
+    padding: 5px;
+}
+
+.overview, .education, .skills, .projects, .job {
+    content: "";
+    clear: both;
+    display: table;
+    margin: auto;
+}
+
+.education {
+    width: 75%;
+}
+
+.education h1, .skills h1, .projects h1, .job h1 {
+    text-align: center;
+}
+
+.text-mark1 {
+    background: linear-gradient(to right, #b37997, #5c348a);
+    background-clip: text;
+    color: transparent;
+}
+
+.text-mark2 {
+    background: linear-gradient(to right, #6d64a2, #274b7e);
+    background-clip: text;
+    color: transparent;
+}
+
+.left {
+    float: left;
+    margin-right: 40px;
+}
+
+header {
+    text-align: center;
+}
+
+#img_overview {
+    height: 320px;
+    width: 240px;
+}
+
+img {
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+a.link {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a.link:hover {
+    background-color: black;
+    color: white;
+}
+
+.timeline-up {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px solid black;
+}
+
+.timeline-down {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.year {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.my-projects {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.my-projects article {
+    margin: 25px;
+    width: 30%;
+}
