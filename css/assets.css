@@ -2,7 +2,7 @@ h1, h2 {
     padding: 5px;
 }
 
-.overview, .education, .skills, .projects, .job {
+.overview, .education, .skills, .projects, .job, .contact {
     content: "";
     clear: both;
     display: table;
@@ -13,11 +13,11 @@ h1, h2 {
     width: 75%;
 }
 
-.skills {
+.skills, .job, .overview {
     width: 50%;
 }
 
-.education h1, .skills h1, .projects h1, .job h1 {
+.education h1, .skills h1, .projects h1, .job h1, .contact h1 {
     text-align: center;
 }
 
@@ -33,34 +33,30 @@ h1, h2 {
     color: transparent;
 }
 
-.left {
-    float: left;
-    margin-right: 40px;
-}
-
 header {
     text-align: center;
 }
 
-#img_overview {
+.img-overview {
     height: 320px;
     width: 240px;
+    float: left;
+    margin-right: 40px;
 }
 
-img {
+.img-overview img {
     border-radius: 20px;
     object-fit: contain;
 }
 
-a.link {
+header a {
     color: black;
     text-decoration: none;
     padding: 10px;
 }
 
 a.link:hover {
-    background-color: black;
-    color: white;
+    background: linear-gradient(to bottom, transparent 50%,#c5b1dd 50%);
 }
 
 .timeline-up {
@@ -81,7 +77,7 @@ a.link:hover {
     flex: 1;
 }
 
-.my-projects {
+.my-projects, .other-projects {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -89,7 +85,22 @@ a.link:hover {
     justify-content: center;
 }
 
-.my-projects article {
+.my-projects article, .other-projects article {
     margin: 20px;
     width: 30%;
 }
+
+.platforms {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.platforms img {
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+}
+

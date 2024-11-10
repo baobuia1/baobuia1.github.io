@@ -12,33 +12,43 @@
     </head>
     <body>
         <header>
-            <a class="link" href="index.html">
+            <a class="link" href="#overview">
                 Overview
             </a>
-            <a class="link" href="index.html">
+            <a class="link" href="#education">
                 Education
+            </a>
+            <a class="link" href="#skills">
+                Skills
+            </a>
+            <a class="link" href="#projects">
+                Projects
+            </a>
+            <a class="link" href="#hiring">
+                Hiring
+            </a>
+            <a class="link" href="#contacts">
+                Contacts
             </a>
         </header>
         <main class="container">
-            <section class="overview">
-                <div id="img_overview" class="left">
+            <section class="overview" id="overview">
+                <div class="img-overview">
                     <img src="assets/pic.jpg">
                 </div>
-                <div>
                     <h1 class="text-mark1">
                         <b>Bùi Quốc Bảo</b>
                     </h1>
                     <p>
                         Hi! I'm a software developer and game developer from Hanoi, Vietnam
                     </p>
-                </div>
             </section>
 
             <br>
             <hr>
             <br>
 
-            <section class="education">
+            <section class="education" id="education">
                 <h1 class="text-mark1">
                     <b>Education</b>
                 </h1>
@@ -68,12 +78,12 @@
                     </div>
                     <div class="year">
                         <p>
-                            Started studying Computer Science in Hanoi University of Science and Technology
+                            Started studying Computer Science at Hanoi University of Science and Technology
                         </p>
                     </div>
                     <div class="year">
                         <p>
-                            Completed Computer Science engineering program of Hanoi University of Science and Technology
+                            Graduated from Computer Science Engineering Program, Hanoi University of Science and Technology
                         </p>
                     </div>
                 </div>
@@ -83,7 +93,7 @@
             <hr>
             <br>
 
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h1 class="text-mark1">
                     <b>My skills</b>
                 </h1>
@@ -93,7 +103,7 @@
                 <p>
                     <br>
                     I'm an expert in Python and Godot, but I can also use C++, C# and Go.
-                    Some frameworks/engines I can proficiently use are:
+                    Some frameworks/engines I can use proficiently are:
                     <ul>
                         Tkinter
                     </ul>
@@ -110,13 +120,22 @@
                 </h2>
                 <p>
                     <ul>
-                        Algorithm:
+                        <b>
+                            Algorithm:
+                        </b>
+                        <progress value="75" max="100" />
                     </ul>
                     <ul>
-                        Optimization:
+                        <b>
+                            Optimization:
+                        </b>
+                        <progress value="90" max="100" />
                     </ul>
                     <ul>
-                        Collaboration:
+                        <b>
+                            Collaboration:
+                        </b>
+                        <progress value="50" max="100" />
                     </ul>
                 </p>
             </section>
@@ -125,7 +144,7 @@
             <hr>
             <br>
 
-            <section class="projects">
+            <section class="projects" id="projects">
                 <h1 class="text-mark1">
                     <b>
                         My projects
@@ -138,7 +157,7 @@
                             Geomethat
                         </h3>
                         <p>
-                            A geometrize tool created in Python using pillow and PySimpleGUI
+                            A geometrize tool built in Python using pillow and PySimpleGUI
                         </p>
                         <button onclick=" window.open('https://github.com/baobuia1/Geomethat','_blank')">
                             Source code
@@ -149,7 +168,7 @@
                             YAIS
                         </h3>
                         <p>
-                            An all-in-one Discord bot made in Python. Made with BrainFl and Edwin
+                            An all-in-one Discord bot built in Python. Made with BrainFl and Edwin
                         </p>
                         <button onclick=" window.open('https://github.com/baobuia1/YAIS','_blank')">
                             Source code
@@ -160,7 +179,7 @@
                             uso!
                         </h3>
                         <p>
-                            An attempt to recreate osu!mania in only a week.
+                            An attempt to recreate osu!mania in under a week.
                         </p>
                         <button onclick=" window.open('https://baobuia1.itch.io/uso','_blank')">
                             itch.io page
@@ -171,7 +190,7 @@
                             klot
                         </h3>
                         <p>
-                            A unfinished chess bot I'm working on, written entirely in Python
+                            An unfinished chess bot I'm working on, written entirely in Python
                         </p>
                         <button onclick=" window.open('https://github.com/baobuia1/klot','_blank')">
                             Source code
@@ -182,11 +201,57 @@
                             This website
                         </h3>
                         <p>
-                            Yes, the website you are viewing was built entirely with pure HTML and CSS
+                            The website you are viewing, built entirely in pure HTML and CSS
                         </p>
                         <button onclick=" window.open('https://github.com/baobuia1/baobuia1.github.io','_blank')">
                             Source code
                         </button>
+                    </article>
+                </div>
+
+                <br>
+                <br>
+
+                <h1 class="text-mark1">
+                    <b>
+                        Projects I took part in
+                    </b>
+                </h1>
+                <br>
+                <div class="other-projects">
+                    <article>
+                        <h3>
+                            Geomethat
+                        </h3>
+                        <p>
+                            Collaborated with BrainFl
+                        </p>
+                        <button onclick=" window.open('https://github.com/baobuia1/Geomethat','_blank')">
+                            Source code
+                        </button>
+                    </article>
+                    <article>
+                        <h3>
+                            YAIS
+                        </h3>
+                        <p>
+                            An all-in-one Discord bot built in Python. Made with BrainFl and Edwin
+                        </p>
+                        <button onclick=" window.open('https://github.com/baobuia1/YAIS','_blank')">
+                            Source code
+                        </button>
+                    </article>
+                    <article>
+                        <h3>
+                            osu!lazer
+                        </h3>
+                        <p>
+                            Bug hunter
+                        </p>
+                        <button onclick=" window.open('https://github.com/ppy/osu','_blank')">
+                            Source code
+                        </button>
+                    </article>
                     </article>
                 </div>
             </section>
@@ -195,15 +260,38 @@
             <hr>
             <br>
 
-            <section class="job">
+            <section class="job" id="hiring">
                 <h1 class="text-mark1">
-                    I'm <mark>OPEN</mark> for hiring
+                    <b>
+                        I'm <mark>OPEN</mark> for hiring
+                    </b>
                 </h1>
                 <p>
-                    Preferred salary: 12.000.000 vnđ per month
+                    <b>Expected salary:</b> starting at 12.000.000 vnđ per month for the first year. Bonus if possible for the following years.
                     <br>
-                    Preferred position: Software engineer, debugger. I can find and fix codes from other people quickly
+                    <b>Preferred position:</b> I want to develop new features as requested and design user interface that can maximize user experience. If needed, I can also debug programs before pushing to production state.
                 </p>
+            </section>
+
+            <br>
+            <hr>
+            <br>
+
+            <section class="contact" id="contacts">
+                <h1 class="text-mark1">
+                    <b>
+                        Contact me
+                    </b>
+                </h1>
+                <p>
+                    You can contact me through my:
+                </p>
+                <div class="platforms">
+                        <img src="assets/fb.png" onclick=" window.open('https://www.facebook.com/baobuia1/','_blank')">
+                        <img src="assets/discord.png" onclick=" window.open('https://discordapp.com/users/861912047817326613','_blank')">
+                        <img src="assets/mail.png" onclick=" window.open('mailto:baobui.a1@gmail.com','_blank')">
+                        <img src="assets/github.png" onclick=" window.open('https://github.com/baobuia1','_blank')">
+                </div>
             </section>
         </main>
     </body>
